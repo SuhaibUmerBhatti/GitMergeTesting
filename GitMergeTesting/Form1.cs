@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace GitMergeTesting
@@ -12,7 +13,7 @@ namespace GitMergeTesting
 
 		private void textBox1_TextChanged(object sender, EventArgs e)
 		{
-
+			textBox1.BackColor = Color.Yellow;
 		}
 	}
 }
