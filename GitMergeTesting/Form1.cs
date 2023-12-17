@@ -15,5 +15,10 @@ namespace GitMergeTesting
 		{
 			textBox1.BackColor = Color.Yellow;
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			textBox1.Text = "hotfix";
+		}
 	}
 }
