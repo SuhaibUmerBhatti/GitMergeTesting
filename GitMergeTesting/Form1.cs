@@ -20,5 +20,10 @@ namespace GitMergeTesting
 		{
 			textBox1.Text = "hotfix";
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			textBox1.Text = "test string";
+		}
 	}
 }
